@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+   color: #fff;
+   margin-top: 20px;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+}
+
+.imgperfil {
+    width: 45%; 
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.sobremi {
+    background-color: #235382;
+    border-radius: 30px; 
+    position: relative;
+    bottom: 140px;
+    box-shadow: 5px 10px 15px #002244;
+}
+
+.sobremi h1 {
+    margin-top: 120px; 
+    font-weight: 800;
+}
+
+.sobremi h3 {
+    margin-top: 20px; 
+}
+
+.sobremi p {
+   font-size: 14px;
+   text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+.social {
+    width: 3rem;
+    opacity: 0.85;
+}
+
+.social:hover {
+    opacity: 1;
+}
+
+@media (min-width: 768px){
+
+    .imgperfil {
+        width: 35%;
+    }
+}
+
+@media (min-width: 992px){
+
+    .imgperfil {
+        width: 25%;
+    }
+
+    .sobremi {
+        bottom: 180px;
+    }
+
+    .sobremi h1 {
+        margin-top: 160px; 
+    }
+
+    .sobremi p {
+        font-size: 16px;
+     }
+}
+
+@media (min-width: 1200px){
+
+    .imgperfil {
+        width: 20%;
+    }
+
+    .sobremi p {
+        font-size: 18px;
+        padding: 0 100px;
+    }
+}
